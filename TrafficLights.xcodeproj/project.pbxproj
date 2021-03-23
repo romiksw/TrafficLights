@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		F17F5180260A0BB400879123 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17F517F260A0BB400879123 /* AppDelegate.swift */; };
 		F17F5182260A0BB400879123 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17F5181260A0BB400879123 /* SceneDelegate.swift */; };
-		F17F5184260A0BB400879123 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17F5183260A0BB400879123 /* ViewController.swift */; };
 		F17F5187260A0BB400879123 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F17F5185260A0BB400879123 /* Main.storyboard */; };
 		F17F5189260A0BB600879123 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F17F5188260A0BB600879123 /* Assets.xcassets */; };
 		F17F518C260A0BB600879123 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F17F518A260A0BB600879123 /* LaunchScreen.storyboard */; };
+		F19A6133260A209900DFC970 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17F5183260A0BB400879123 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F17F5184260A0BB400879123 /* ViewController.swift in Sources */,
+				F19A6133260A209900DFC970 /* ViewController.swift in Sources */,
 				F17F5180260A0BB400879123 /* AppDelegate.swift in Sources */,
 				F17F5182260A0BB400879123 /* SceneDelegate.swift in Sources */,
 			);
@@ -296,7 +296,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = romankozlov.TrafficLights;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +315,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = romankozlov.TrafficLights;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
